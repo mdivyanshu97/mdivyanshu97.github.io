@@ -13,7 +13,7 @@ Before starting my academic journey, I worked as a Data Scientist at Translation
 
 ---
 ## News
-**[11/23]** Giving a talk at [Synthetic Data for Machine Learning](https://www.bmva.org/meetings/23-11-08-Synthetic%20Data%20for%20Machine%20Learning.html)  organised by The British Machine Vision Association and Society for Computer Vision.
+**[11/23]** Gave talk at [Synthetic Data for Machine Learning](https://www.bmva.org/meetings/23-11-08-Synthetic%20Data%20for%20Machine%20Learning.html)  organised by The British Machine Vision Association and Society for Computer Vision.
 
 **[8/23]** Two abstracts [1](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1002/uog.26323),[2](https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/uog.26499) were published and accepted for Oral presentation at [ISUOG World Congress 2023](https://www.isuog.org/events/isuog-world-congress-2023.html) .
 
