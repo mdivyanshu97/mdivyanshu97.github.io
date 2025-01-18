@@ -13,7 +13,11 @@ Before starting my academic journey, I worked as a Data Scientist at Translation
 
 ---
 ## News
-**[11/23]** Gave talk at [Synthetic Data for Machine Learning](https://www.bmva.org/meetings/23-11-08-Synthetic%20Data%20for%20Machine%20Learning.html)  organised by The British Machine Vision Association and Society for Computer Vision.
+
+**[07/24]** Our paper STAN-LOC: Visual Query-based Video Clip Localization for Fetal Ultrasound Sweep Videos has been accepted to MICCAI 2024. Read it here(https://link.springer.com/chapter/10.1007/978-3-031-72083-3_69).
+
+
+**[11/23]** Giving a talk at [Synthetic Data for Machine Learning](https://www.bmva.org/meetings/23-11-08-Synthetic%20Data%20for%20Machine%20Learning.html)  organised by The British Machine Vision Association and Society for Computer Vision.
 
 **[8/23]** Two abstracts [1](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1002/uog.26323),[2](https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/uog.26499) were published and accepted for Oral presentation at [ISUOG World Congress 2023](https://www.isuog.org/events/isuog-world-congress-2023.html) .
 
@@ -69,7 +73,7 @@ Before starting my academic journey, I worked as a Data Scientist at Translation
         <img src="images/isofed.webp" alt="paper_figure" class="image">
         <div class="description-box">
             <h3>Rethinking Semi-Supervised Federated Learning: How to Co-train Fully-Labeled and Fully-Unlabeled Client Imaging Data</h3>
-            <p><small><b>Pramit Saha</b>,Divyanshu Mishra, J. Alison Noble <br>
+            <p><small>Pramit Saha,<b>Divyanshu Mishra</b>, J. Alison Noble <br>
             <i>MICCAI 2023</i> <br>
 
            The most challenging, yet practical, setting of semi-supervised federated learning (SSFL) is where a few clients have fully labeled data whereas the other clients have fully unlabeled data. This is particularly common in healthcare settings where collaborating partners (typically hospitals) may have images but not annotations. We propose IsoFed that circumvents the problem by avoiding simple averaging of supervised and semi-supervised models together. 
