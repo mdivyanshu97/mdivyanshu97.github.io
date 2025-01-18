@@ -14,8 +14,7 @@ Before starting my academic journey, I worked as a Data Scientist at Translation
 ---
 ## News
 
-**[07/24]** Our paper [STAN-LOC: Visual Query-based Video Clip Localization for Fetal Ultrasound Sweep Videos] has been accepted to MICCAI 2024. Read it here(https://link.springer.com/chapter/10.1007/978-3-031-72083-3_69).
-
+**[07/24]** Our paper STAN-LOC: Visual Query-based Video Clip Localization for Fetal Ultrasound Sweep Videos has been accepted to MICCAI 2024. [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_69).
 
 **[11/23]** Giving a talk at [Synthetic Data for Machine Learning](https://www.bmva.org/meetings/23-11-08-Synthetic%20Data%20for%20Machine%20Learning.html)  organised by The British Machine Vision Association and Society for Computer Vision.
 
