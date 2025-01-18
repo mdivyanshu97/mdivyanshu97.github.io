@@ -12,7 +12,6 @@ Hello and welcome to my website! My name is Divyanshu Mishra, and I'm a PhD stud
 Before starting my academic journey, I worked as a Data Scientist at Translational Health Science and Technology Institute,Government of India. 
 
 ---
-## News
 ## 📰 News & Achievements
 
 ---
@@ -62,7 +61,6 @@ Before starting my academic journey, I worked as a Data Scientist at Translation
            [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_39)
     
 - **Jul. 23**
-    - **Participant:**  
       Attended the [International Computer Vision Summer School](https://iplab.dmi.unict.it/icvss2023/Home) held in Sicily, Italy. Selected among 100 students each year.
     
 - **Oct. 22**
