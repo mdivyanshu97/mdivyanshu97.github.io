@@ -13,19 +13,67 @@ Before starting my academic journey, I worked as a Data Scientist at Translation
 
 ---
 ## News
+## 📰 News & Achievements
 
-**[07/24]** Our paper STAN-LOC: Visual Query-based Video Clip Localization for Fetal Ultrasound Sweep Videos has been accepted to MICCAI 2024. [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_69).
+---
 
-**[11/23]** Giving a talk at [Synthetic Data for Machine Learning](https://www.bmva.org/meetings/23-11-08-Synthetic%20Data%20for%20Machine%20Learning.html)  organised by The British Machine Vision Association and Society for Computer Vision.
+### **Dec. 24**
+- **Accepted to AAAI 2025:**
+  - **Visual Query-Based Video Clip Localization:**  
+    *First-authored paper*  
+    **Title:** “MCAT: Visual Query-Based Localization of Standard Anatomical Clips in Fetal Ultrasound Videos using Multi-Tier Class-Aware Token Transformer”  
+    [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_69)
+  
+  - **Federated Learning:**  
+    *Second-authored papers*  
+    1. “F3OCUS – Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics”  
+       [Read it here](https://arxiv.org/abs/2411.11912)
+    2. *[Second Federated Learning Paper Title & Link]*
 
-**[8/23]** Two abstracts [1](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1002/uog.26323),[2](https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/uog.26499) were published and accepted for Oral presentation at [ISUOG World Congress 2023](https://www.isuog.org/events/isuog-world-congress-2023.html) .
+---
 
-**[8/23]** Two papers [1](https://link.springer.com/chapter/10.1007/978-3-031-43907-0_21) [2](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_39) accepted at [MICCAI 2023](https://conferences.miccai.org/2023/en/).
+### **Aug. 24**
+- **Internship at Amazon Science:**  
+  Selected as an **Applied Scientist** to work on **Video-LLMs**, focusing on training methodologies using single-modality to reduce dependency on paired data.
 
-**[7/23]** Attended the [International Computer Vision Summer School](https://iplab.dmi.unict.it/icvss2023/Home)  held in Sicily,Italy (100 students selected every year)
+---
 
-**[10/22]** Started DPhil supervised by [Professor Alison Noble](https://ibme.ox.ac.uk/person/alison-noble/) and [Professor Vicente Grau Colomer](https://ibme.ox.ac.uk/person/vicente-grau-colomer/)
+### **Jul. 24**
+- **Accepted to MICCAI 2024:**
+  - **STAN-LOC: Visual Query-Based Video Clip Localization for Fetal Ultrasound Sweep Videos**  
+    *First-authored paper*  
+    [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_69)
 
+---
+
+### **Nov. 23**
+- **Guest Speaker:**  
+  Delivered a talk at the [Synthetic Data for Machine Learning](https://www.bmva.org/meetings/23-11-08-Synthetic%20Data%20for%20Machine%20Learning.html) conference organized by The British Machine Vision Association and Society for Computer Vision.
+
+---
+
+### **Aug. 23**
+- **Accepted for Oral Presentations at ISUOG World Congress 2023:**
+  1. [Abstract 1](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1002/uog.26323)
+  2. [Abstract 2](https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/uog.26499)
+  
+- **Accepted to MICCAI 2023:**
+  1. [Paper 1](https://link.springer.com/chapter/10.1007/978-3-031-43907-0_21)
+  2. [Paper 2](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_39)
+
+---
+
+### **Jul. 23**
+- **Participant:**  
+  Attended the [International Computer Vision Summer School](https://iplab.dmi.unict.it/icvss2023/Home) held in Sicily, Italy. Selected among 100 students each year.
+
+---
+
+### **Oct. 22**
+- **DPhil Enrollment:**  
+  Started a fully-funded **DPhil** (PhD) program funded by the **Athena-Bronze Scholarship**, supervised by [Professor Alison Noble](https://ibme.ox.ac.uk/person/alison-noble/) and [Professor Vicente Grau Colomer](https://ibme.ox.ac.uk/person/vicente-grau-colomer/).
+
+---
 
 
 ---
