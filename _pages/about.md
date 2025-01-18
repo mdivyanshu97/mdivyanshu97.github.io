@@ -22,13 +22,14 @@ Before starting my academic journey, I worked as a Data Scientist at Translation
   - **Visual Query-Based Video Clip Localization:**  
     *First-authored paper*  
     **Title:** “MCAT: Visual Query-Based Localization of Standard Anatomical Clips in Fetal Ultrasound Videos using Multi-Tier Class-Aware Token Transformer”  
-    [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_69)
+    *Proceedings Coming Soon*  
+    <!-- If proceedings are available later, you can update the link here -->
   
   - **Federated Learning:**  
     *Second-authored papers*  
     1. “F3OCUS – Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics”  
        [Read it here](https://arxiv.org/abs/2411.11912)
-    2. *[Second Federated Learning Paper Title & Link]*
+    2. *[Second Federated Learning Paper Title & Link]* <!-- Please replace with actual title and link when available -->
 
 ---
 
@@ -54,12 +55,19 @@ Before starting my academic journey, I worked as a Data Scientist at Translation
 
 ### **Aug. 23**
 - **Accepted for Oral Presentations at ISUOG World Congress 2023:**
-  1. [Abstract 1](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1002/uog.26323)
-  2. [Abstract 2](https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/uog.26499)
-  
+  1. [Abstract 1](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1002/uog.26323)  
+     *ISUOG World Congress 2023*
+  2. [Abstract 2](https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/uog.26499)  
+     *ISUOG World Congress 2023*
+    
 - **Accepted to MICCAI 2023:**
-  1. [Paper 1](https://link.springer.com/chapter/10.1007/978-3-031-43907-0_21)
-  2. [Paper 2](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_39)
+  1. **Dual Conditioned Diffusion Models for Out-of-Distribution Detection: Application to Fetal Ultrasound Videos**  
+     *First-authored paper*  
+     [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-43907-0_21)
+  
+  2. **Rethinking Semi-Supervised Federated Learning: How to Co-train Fully-Labeled and Fully-Unlabeled Client Imaging Data**  
+     *Second-authored paper*  
+     [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_39)
 
 ---
 
@@ -72,8 +80,6 @@ Before starting my academic journey, I worked as a Data Scientist at Translation
 ### **Oct. 22**
 - **DPhil Enrollment:**  
   Started a fully-funded **DPhil** (PhD) program funded by the **Athena-Bronze Scholarship**, supervised by [Professor Alison Noble](https://ibme.ox.ac.uk/person/alison-noble/) and [Professor Vicente Grau Colomer](https://ibme.ox.ac.uk/person/vicente-grau-colomer/).
-
----
 
 
 ---
