@@ -10,7 +10,7 @@ redirect_from:
 
 ## 📰 Welcome to My Website!
 
-I'm **Divyanshu Mishra**, a PhD student in the Department of Engineering Science at the [University of Oxford](https://www.ox.ac.uk/), supervised by [Professor Alison Noble](https://ibme.ox.ac.uk/person/alison-noble/) and [Professor Vicente Grau Colomer](https://ibme.ox.ac.uk/person/vicente-grau-colomer/). I am honored to be funded by the **Athena-Bronze Scholarship**. My research focuses on **Computer Vision** and its applications in the medical domain. Currently, I am working on **multi-modal learning**, **video understanding**, and **federated learning** in **fetal-ultrasound videos**, particularly aiming to enhance the detection of **Congenital Heart Diseases**.
+I'm **Divyanshu Mishra**, a PhD student in the Department of Engineering Science at the [University of Oxford](https://www.ox.ac.uk/), supervised by [Professor Alison Noble](https://ibme.ox.ac.uk/person/alison-noble/). I am honored to be fully-funded by the **Athena-Bronze Scholarship**. My research focuses on **Computer Vision** and its applications in the medical domain. Currently, I am working on **multi-modal learning**, **video understanding**, and **federated learning** in **fetal-ultrasound videos**, particularly aiming to enhance the detection of **Congenital Heart Diseases**.
 
 I have interned at **Amazon Science** as an **Applied Scientist**, where I focused on **Video-LLMs** and developed training methodologies that utilize single-modality to reduce dependency on paired data. Prior to my PhD, I worked as a **Data Scientist** at the [Translational Health Science and Technology Institute (THSTI)](https://thsti.res.in/), Government of India under the supervision of [Prof. Shinjini Bhatnagar](https://thsti.res.in/en/faculty-profile/Shinjini-Bhatanagar). This role allowed me to apply my analytical skills to real-world health challenges, further fueling my passion for research and innovation in healthcare technology.
 
@@ -20,6 +20,14 @@ Feel free to explore my website to learn more about my projects, publications, a
 ## 📰 News & Achievements
 
 ---
+- **Mar. 25**
+ - **Preprint:** 
+        - **Title:** Self-supervised Normality Learning and Divergence Vector-guided Model Merging for Zero-shot Congenital Heart Disease Detection in Fetal Ultrasound Videos
+        - **Proceedings:** [Read it here](https://arxiv.org/pdf/2503.07799)
+- **Accepted to CVPR 2025:**
+        - **Title:** “F3OCUS – Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics”  
+        - **Proceedings:** [Read it here](https://arxiv.org/abs/2411.11912)
+   
 
 - **Dec. 24**
     - **Accepted to AAAI 2025:**
