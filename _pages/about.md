@@ -22,12 +22,12 @@ Feel free to explore my website to learn more about my projects, publications, a
 ---
 - **Mar. 25**
     - **Preprint:** 
-        - **Video Understanding and Model Merging:**
-             **Title:** Self-supervised Normality Learning and Divergence Vector-guided Model Merging for Zero-shot Congenital Heart Disease Detection in Fetal Ultrasound Videos
-             **Proceedings:** [Read it here](https://arxiv.org/pdf/2503.07799)
+        - **Video Understanding and Model Merging**  
+            Self-supervised Normality Learning and Divergence Vector-guided Model Merging for Zero-shot Congenital Heart Disease Detection in Fetal Ultrasound Videos  
+            **Proceedings:** [Read it here](https://arxiv.org/pdf/2503.07799)
     - **Accepted to CVPR 2025:**
-        - **Federated Learning:**
-            **Title:** F3OCUS – Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics
+        - **Federated Learning**  
+            F3OCUS – Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics  
             **Proceedings:** [Read it here](https://arxiv.org/abs/2411.11912)
    
 
@@ -35,13 +35,13 @@ Feel free to explore my website to learn more about my projects, publications, a
     - **Accepted to AAAI 2025:**
         - **Video Understanding:**  
           *First-authored paper*  
-          **Title:**MCAT: Visual Query-Based Localization of Standard Anatomical Clips in Fetal Ultrasound Videos using Multi-Tier Class-Aware Token Transformer
+          MCAT: Visual Query-Based Localization of Standard Anatomical Clips in Fetal Ultrasound Videos using Multi-Tier Class-Aware Token Transformer
           *Proceedings Coming Soon*
         - **Federated Learning:**  
           *Second-authored papers*  
-          1. **Title:** FedPIA -- Permuting and Integrating Adapters leveraging Wasserstein Barycenters for Finetuning Foundation Models in Multi-Modal Federated Learning
+          1. FedPIA -- Permuting and Integrating Adapters leveraging Wasserstein Barycenters for Finetuning Foundation Models in Multi-Modal Federated Learning
              **Proceedings:** [Read it here](https://arxiv.org/abs/2412.14424)
-          2. **Title:** Rethinking Semi-Supervised Federated Learning: How to Co-train Fully-Labeled and Fully-Unlabeled Client Imaging Data
+          2. Rethinking Semi-Supervised Federated Learning: How to Co-train Fully-Labeled and Fully-Unlabeled Client Imaging Data
              **Proceedings:** [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_39)
     
 - **Aug. 24**
@@ -107,15 +107,56 @@ Feel free to explore my website to learn more about my projects, publications, a
             border: 1px solid #ccc;
         }
 </style>
+
+<div class="container">
+        <img src="images/self-supervised.webp" alt="paper_figure" class="image">
+        <div class="description-box">
+            <h3>SELF SUPERVISED</h3>
+            <p><small>[Authors] <br>
+            <i>[Conference/Journal]</i> <br>
+            [Description of the paper]
+            </small>
+            </p>
+        </div>
+</div>
+
+<a role="button" href="[arxiv_link]" class="btn btn-dark">Arxiv Version</a>     <a role="button" href="[conference_link]" class="btn btn-warning">Conference Version</a>
+
+<div class="container">
+        <img src="images/mcat.webp" alt="paper_figure" class="image">
+        <div class="description-box">
+            <h3>MCAT</h3>
+            <p><small>[Authors] <br>
+            <i>[Conference/Journal]</i> <br>
+            [Description of the paper]
+            </small>
+            </p>
+        </div>
+</div>
+
+<a role="button" href="[arxiv_link]" class="btn btn-dark">Arxiv Version</a>     <a role="button" href="[conference_link]" class="btn btn-warning">Conference Version</a>
+
+<div class="container">
+        <img src="images/stanloc_image.webp" alt="paper_figure" class="image">
+        <div class="description-box">
+            <h3>STAN-LOC</h3>
+            <p><small>[Authors] <br>
+            <i>[Conference/Journal]</i> <br>
+            [Description of the paper]
+            </small>
+            </p>
+        </div>
+</div>
+
+<a role="button" href="[arxiv_link]" class="btn btn-dark">Arxiv Version</a>     <a role="button" href="[conference_link]" class="btn btn-warning">Conference Version</a>
+
 <div class="container">
         <img src="images/dcdm_figure.webp" alt="paper_figure" class="image">
         <div class="description-box">
             <h3>Dual Conditioned Diffusion Models for Out-of-Distribution Detection: Application to Fetal Ultrasound Videos</h3>
             <p><small><b>Divyanshu Mishra</b>,He Zhao, Pramit Saha,Aris T. Papageorghiou & J. Alison Noble <br>
-
             <i>MICCAI 2023</i> <br>
-
-           Out-of-distribution (OOD) detection is essential to improve the reliability of machine learning models by detecting samples that do not belong to the training distribution. We introduce Dual Conditioned Diffusion models (DCDM) to detect OOD samples in Ultrasound videos given we have information only about ID samples during training.
+            Out-of-distribution (OOD) detection is essential to improve the reliability of machine learning models by detecting samples that do not belong to the training distribution. We introduce Dual Conditioned Diffusion models (DCDM) to detect OOD samples in Ultrasound videos given we have information only about ID samples during training.
             </small>
             </p>
         </div>
@@ -123,15 +164,13 @@ Feel free to explore my website to learn more about my projects, publications, a
 
 <a role="button" href="https://arxiv.org/pdf/2311.00469.pdf" class="btn btn-dark">Arxiv Version</a>     <a role="button" href="https://link.springer.com/chapter/10.1007/978-3-031-43907-0_21" class="btn btn-warning">Conference Version</a>
 
-
 <div class="container">
         <img src="images/isofed.webp" alt="paper_figure" class="image">
         <div class="description-box">
             <h3>Rethinking Semi-Supervised Federated Learning: How to Co-train Fully-Labeled and Fully-Unlabeled Client Imaging Data</h3>
             <p><small>Pramit Saha,<b>Divyanshu Mishra</b>, J. Alison Noble <br>
             <i>MICCAI 2023</i> <br>
-
-           The most challenging, yet practical, setting of semi-supervised federated learning (SSFL) is where a few clients have fully labeled data whereas the other clients have fully unlabeled data. This is particularly common in healthcare settings where collaborating partners (typically hospitals) may have images but not annotations. We propose IsoFed that circumvents the problem by avoiding simple averaging of supervised and semi-supervised models together. 
+            The most challenging, yet practical, setting of semi-supervised federated learning (SSFL) is where a few clients have fully labeled data whereas the other clients have fully unlabeled data. This is particularly common in healthcare settings where collaborating partners (typically hospitals) may have images but not annotations. We propose IsoFed that circumvents the problem by avoiding simple averaging of supervised and semi-supervised models together. 
             </small>
             </p>
         </div>
