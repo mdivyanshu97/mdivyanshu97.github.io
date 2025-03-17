@@ -127,7 +127,7 @@ Feel free to explore my website to learn more about my projects, publications, a
         <div class="description-box">
             <h3>MCAT</h3>
             <p><small>[Authors] <br>
-            <i>[Conference/Journal]</i> <br>
+            <i>[AAAI 2025]</i> <br>
             [Description of the paper]
             </small>
             </p>
@@ -139,10 +139,10 @@ Feel free to explore my website to learn more about my projects, publications, a
 <div class="container">
         <img src="images/stanloc_image.webp" alt="paper_figure" class="image">
         <div class="description-box">
-            <h3>STAN-LOC</h3>
+            <h3>STAN-LOC: Visual Query-Based Video Clip Localization for Fetal Ultrasound Sweep Videos</h3>
             <p><small>[Authors] <br>
-            <i>[Conference/Journal]</i> <br>
-            [Description of the paper]
+            <i>[MICCAI 2024]</i> <br>
+            [We introduce the Visual Query-based Video Clip Localization (VQ-VCL) task—retrieving a relevant video clip from a sequence given a query image—and present STAN-LOC, which leverages a query-aware spatio-temporal transformer with multi-anchor contrastive learning for robust clip localization.]
             </small>
             </p>
         </div>
