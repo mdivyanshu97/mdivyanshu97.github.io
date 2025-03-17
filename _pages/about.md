@@ -37,8 +37,8 @@ Feel free to explore my website to learn more about my projects, publications, a
           *Proceedings Coming Soon*
         - **Federated Learning:**  
           *Second-authored papers*  
-          1. “F3OCUS – Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics”  
-             [Read it here](https://arxiv.org/abs/2411.11912)
+          1. “FedPIA -- Permuting and Integrating Adapters leveraging Wasserstein Barycenters for Finetuning Foundation Models in Multi-Modal Federated Learning”  
+             [Read it here](https://arxiv.org/abs/2412.14424)
           2. “Rethinking Semi-Supervised Federated Learning: How to Co-train Fully-Labeled and Fully-Unlabeled Client Imaging Data”  
              *Second-authored paper*  
              [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_39)
