@@ -22,25 +22,26 @@ Feel free to explore my website to learn more about my projects, publications, a
 ---
 - **Mar. 25**
     - **Preprint:** 
-        - ** Self-supervised Normality Learning and Divergence Vector-guided Model Merging for Zero-shot Congenital Heart Disease Detection in Fetal Ultrasound Videos**
+        - **Video Understanding:**
+        - **Self-supervised Normality Learning and Divergence Vector-guided Model Merging for Zero-shot Congenital Heart Disease Detection in Fetal Ultrasound Videos**
         - **Proceedings:** [Read it here](https://arxiv.org/pdf/2503.07799)
 - **Accepted to CVPR 2025:**
-        - ** “F3OCUS – Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics” ** 
+        - **F3OCUS – Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics** 
         - **Proceedings:** [Read it here](https://arxiv.org/abs/2411.11912)
    
 
 - **Dec. 24**
     - **Accepted to AAAI 2025:**
-        - **Visual Query-Based Video Clip Localization:**  
+        - **Video Understanding:**  
           *First-authored paper*  
-          **Title:** “MCAT: Visual Query-Based Localization of Standard Anatomical Clips in Fetal Ultrasound Videos using Multi-Tier Class-Aware Token Transformer”  
+          **Title:**MCAT: Visual Query-Based Localization of Standard Anatomical Clips in Fetal Ultrasound Videos using Multi-Tier Class-Aware Token Transformer
           *Proceedings Coming Soon*
         - **Federated Learning:**  
           *Second-authored papers*  
-          1. “FedPIA -- Permuting and Integrating Adapters leveraging Wasserstein Barycenters for Finetuning Foundation Models in Multi-Modal Federated Learning”  
+          1. FedPIA -- Permuting and Integrating Adapters leveraging Wasserstein Barycenters for Finetuning Foundation Models in Multi-Modal Federated Learning
              [Read it here](https://arxiv.org/abs/2412.14424)
-          2. “Rethinking Semi-Supervised Federated Learning: How to Co-train Fully-Labeled and Fully-Unlabeled Client Imaging Data”  
-             *Second-authored paper*  
+          2. Rethinking Semi-Supervised Federated Learning: How to Co-train Fully-Labeled and Fully-Unlabeled Client Imaging Data
+
              [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_39)
     
 - **Aug. 24**
@@ -48,6 +49,7 @@ Feel free to explore my website to learn more about my projects, publications, a
       Selected as an **Applied Scientist** to work on **Video-LLMs**, focusing on training methodologies using single-modality to reduce dependency on paired data.
     
 - **Jul. 24**
+    - **Video Understanding:**
     - **Accepted to MICCAI 2024:**
         - **STAN-LOC: Visual Query-Based Video Clip Localization for Fetal Ultrasound Sweep Videos**  
           *First-authored paper*  
