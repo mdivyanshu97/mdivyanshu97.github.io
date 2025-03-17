@@ -22,12 +22,13 @@ Feel free to explore my website to learn more about my projects, publications, a
 ---
 - **Mar. 25**
     - **Preprint:** 
-        - **Video Understanding:**
-        - **Self-supervised Normality Learning and Divergence Vector-guided Model Merging for Zero-shot Congenital Heart Disease Detection in Fetal Ultrasound Videos**
-        - **Proceedings:** [Read it here](https://arxiv.org/pdf/2503.07799)
-- **Accepted to CVPR 2025:**
-        - **F3OCUS – Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics** 
-        - **Proceedings:** [Read it here](https://arxiv.org/abs/2411.11912)
+        - **Video Understanding and Model Merging:**
+             **Self-supervised Normality Learning and Divergence Vector-guided Model Merging for Zero-shot Congenital Heart Disease Detection in Fetal Ultrasound Videos**
+             **Proceedings:** [Read it here](https://arxiv.org/pdf/2503.07799)
+    - **Accepted to CVPR 2025:**
+        - **Federated Learning:**
+            - **F3OCUS – Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics** 
+            - **Proceedings:** [Read it here](https://arxiv.org/abs/2411.11912)
    
 
 - **Dec. 24**
