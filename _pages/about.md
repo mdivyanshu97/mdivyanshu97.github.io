@@ -107,48 +107,19 @@ Feel free to explore my website to learn more about my projects, publications, a
             border: 1px solid #ccc;
         }
 </style>
-
-<div class="container">
-        <img src="images/self-supervised.webp" alt="paper_figure" class="image">
-        <div class="description-box">
-            <h3>SELF SUPERVISED</h3>
-            <p><small>[Authors] <br>
-            <i>[Conference/Journal]</i> <br>
-            [Description of the paper]
-            </small>
-            </p>
-        </div>
-</div>
-
-<a role="button" href="[arxiv_link]" class="btn btn-dark">Arxiv Version</a>     <a role="button" href="[conference_link]" class="btn btn-warning">Conference Version</a>
-
-<div class="container">
-        <img src="images/mcat.webp" alt="paper_figure" class="image">
-        <div class="description-box">
-            <h3>MCAT</h3>
-            <p><small>[Authors] <br>
-            <i>[AAAI 2025]</i> <br>
-            [Description of the paper]
-            </small>
-            </p>
-        </div>
-</div>
-
-<a role="button" href="[arxiv_link]" class="btn btn-dark">Arxiv Version</a>     <a role="button" href="[conference_link]" class="btn btn-warning">Conference Version</a>
-
 <div class="container">
         <img src="images/stanloc_image.webp" alt="paper_figure" class="image">
         <div class="description-box">
             <h3>STAN-LOC: Visual Query-Based Video Clip Localization for Fetal Ultrasound Sweep Videos</h3>
-            <p><small>[Authors] <br>
-            <i>[MICCAI 2024]</i> <br>
-            [We introduce the Visual Query-based Video Clip Localization (VQ-VCL) task—retrieving a relevant video clip from a sequence given a query image—and present STAN-LOC, which leverages a query-aware spatio-temporal transformer with multi-anchor contrastive learning for robust clip localization.]
+            <p><small>Divyanshu Mishra, Pramit Saha, He Zhao, Olga Patey, Aris T. Papageorghiou & J. Alison Noble  <br>
+            <i>MICCAI 2024</i> <br>
+            We introduce the Visual Query-based Video Clip Localization (VQ-VCL) task—retrieving a relevant video clip from a sequence given a query image—and present STAN-LOC, which leverages a query-aware spatio-temporal transformer with multi-anchor contrastive learning for robust clip localization.
             </small>
             </p>
         </div>
 </div>
 
-<a role="button" href="[arxiv_link]" class="btn btn-dark">Arxiv Version</a>     <a role="button" href="[conference_link]" class="btn btn-warning">Conference Version</a>
+<a role="button" href="[arxiv_link]" class="btn btn-dark">Arxiv Version</a>     <a role="button" href="https://link.springer.com/chapter/10.1007/978-3-031-72083-3_69" class="btn btn-warning">Conference Version</a>
 
 <div class="container">
         <img src="images/dcdm_figure.webp" alt="paper_figure" class="image">
