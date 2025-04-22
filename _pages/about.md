@@ -12,7 +12,7 @@ redirect_from:
 
 I'm **Divyanshu Mishra**, a PhD student in the Department of Engineering Science at the [University of Oxford](https://www.ox.ac.uk/), supervised by [Professor Alison Noble](https://ibme.ox.ac.uk/person/alison-noble/). I’m honoured to be fully funded by the **Athena-Bronze Scholarship**.
 
-My research focuses on **long video understanding**, specifically in **video localization**, **self-supervised video representation learning**, and **multi-modal large language models**. I develop these methods in the context of **fetal ultrasound videos**, with the goal of significantly improving the early detection of **Congenital Heart Diseases**. Ultimately, my work aims to develop **algorithms that streamline the workflow of sonographers and assist clinicians in diagnosing congenital conditions**.
+My research focuses on **long video understanding**, specifically in **video localization**, **self-supervised video representation learning**, and **multi-modal large language models**. I develop these methods in the context of **fetal ultrasound videos**, with the goal of significantly improving the early detection of **Congenital Heart Diseases**. Ultimately, my work aims to develop **algorithms that streamline the workflow of sonographers and assist clinicians in diagnosing congenital heart conditions**.
 
 I recently interned at **Amazon Science** as an **Applied Scientist 2**, where I worked on **Video Large Language Models (Video-LLMs)** and developed training methodologies that leverage single-modality data to reduce reliance on paired datasets.
 
@@ -24,6 +24,12 @@ Feel free to explore my website to learn more about my projects, publications, a
 ---
 ## 📰 News & Achievements
 
+**Apr. 25**
+
+    - **Accepted to Medical Image Analysis (Journal Impact Factor 10.7):**
+        - **Video Understanding**  
+            TIER-LOC: Visual Query-based Video Clip Localization in Fetal Ultrasound Videos with a Multi-Tier Transformer
+            **Proceedings:** Coming Soon
 ---
 - **Mar. 25**
     - **Preprint:** 
@@ -41,7 +47,7 @@ Feel free to explore my website to learn more about my projects, publications, a
         - **Video Understanding:**  
           *First-authored paper*  
           MCAT: Visual Query-Based Localization of Standard Anatomical Clips in Fetal Ultrasound Videos using Multi-Tier Class-Aware Token Transformer
-          *Proceedings Coming Soon*
+          *Proceedings [Read it here](https://ojs.aaai.org/index.php/AAAI/article/view/35047)*
         - **Federated Learning:**  
           *Second-authored papers*  
           1. FedPIA -- Permuting and Integrating Adapters leveraging Wasserstein Barycenters for Finetuning Foundation Models in Multi-Modal Federated Learning
