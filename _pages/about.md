@@ -10,11 +10,16 @@ redirect_from:
 
 ## 📰 Welcome to My Website!
 
-I'm **Divyanshu Mishra**, a PhD student in the Department of Engineering Science at the [University of Oxford](https://www.ox.ac.uk/), supervised by [Professor Alison Noble](https://ibme.ox.ac.uk/person/alison-noble/). I am honored to be fully-funded by the **Athena-Bronze Scholarship**. My research focuses on **Computer Vision** and its applications in the medical domain. Currently, I am working on **multi-modal learning**, **video understanding**, and **federated learning** in **fetal-ultrasound videos**, particularly aiming to enhance the detection of **Congenital Heart Diseases**.
+I'm **Divyanshu Mishra**, a PhD student in the Department of Engineering Science at the [University of Oxford](https://www.ox.ac.uk/), supervised by [Professor Alison Noble](https://ibme.ox.ac.uk/person/alison-noble/). I’m honoured to be fully funded by the **Athena-Bronze Scholarship**.
 
-I have interned at **Amazon Science** as an **Applied Scientist**, where I focused on **Video-LLMs** and developed training methodologies that utilize single-modality to reduce dependency on paired data. Prior to my PhD, I worked as a **Data Scientist** at the [Translational Health Science and Technology Institute (THSTI)](https://thsti.res.in/), Government of India under the supervision of [Prof. Shinjini Bhatnagar](https://thsti.res.in/en/faculty-profile/Shinjini-Bhatanagar). This role allowed me to apply my analytical skills to real-world health challenges, further fueling my passion for research and innovation in healthcare technology.
+My research focuses on **long video understanding**, specifically in **video localization**, **self-supervised video representation learning**, and **multi-modal large language models**. I develop these methods in the context of **fetal ultrasound videos**, with the goal of significantly improving the early detection of **Congenital Heart Diseases**. Ultimately, my work aims to develop **algorithms that streamline the workflow of sonographers and assist clinicians in diagnosing congenital conditions**.
 
-Feel free to explore my website to learn more about my projects, publications, and reach out if interested in my work.
+I recently interned at **Amazon Science** as an **Applied Scientist 2**, where I worked on **Video Large Language Models (Video-LLMs)** and developed training methodologies that leverage single-modality data to reduce reliance on paired datasets.
+
+Before starting my PhD, I worked as a **Data Scientist** at the [Translational Health Science and Technology Institute (THSTI)](https://thsti.res.in/), Government of India, under the supervision of [Prof. Shinjini Bhatnagar](https://thsti.res.in/en/faculty-profile/Shinjini-Bhatanagar). My work focused on developing machine learning algorithms for key challenges in maternal and child health — including the **detection of preterm birth**, **prediction of gestational age**, and the **assessment of neonatal outcomes**. This experience allowed me to apply data-driven approaches to high-impact, real-world health problems and further deepened my passion for research at the intersection of AI and healthcare.
+
+Feel free to explore my website to learn more about my projects, publications, and ongoing work — or reach out if you're interested in collaborating!
+
 
 ---
 ## 📰 News & Achievements
