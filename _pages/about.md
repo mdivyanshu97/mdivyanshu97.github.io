@@ -10,15 +10,17 @@ redirect_from:
 
 ## 📰 Welcome to My Website!
 
-I'm **Divyanshu Mishra**, a PhD student in the Department of Engineering Science at the [University of Oxford](https://www.ox.ac.uk/), supervised by [Professor Alison Noble](https://ibme.ox.ac.uk/person/alison-noble/). I'm honoured to be fully funded by the **Athena-Bronze Scholarship**.
+I'm **Divyanshu Mishra**, a PhD student in the Department of Engineering Science at the [University of Oxford](https://www.ox.ac.uk/), where I am fortunate to be supervised by [Professor Alison Noble](https://ibme.ox.ac.uk/person/alison-noble/) and fully funded by the **Athena-Bronze Scholarship**.
 
-My research focuses on **long video understanding**, specifically in **video localization**, **self-supervised video representation learning**, and **multi-modal large language models**. I develop these methods in the context of **fetal ultrasound videos**, with the goal of significantly improving the early detection of **Congenital Heart Diseases**. Ultimately, my work aims to develop **algorithms that streamline the workflow of sonographers and assist clinicians in diagnosing congenital heart conditions**.
+My research centers on **long video understanding**, with a focus on **video localization**, **self-supervised video representation learning**, and **multi-modal large language models**. Much of my recent work develops these methods in the context of fetal ultrasound imaging for congenital heart disease detection, where I aim to build algorithms that streamline clinical workflows and support clinicians in making earlier and more accurate diagnoses.
 
-I recently interned at **Amazon Science** as an **Applied Scientist 2**, where I worked on **Video Large Language Models (Video-LLMs)** and developed training methodologies that leverage single-modality data to reduce reliance on paired datasets.
+Most recently, I interned at **Amazon Science** as an **Applied Scientist 2**, where I worked on **Video Large Language Models (Video-LLMs)** and developed training methodologies that leverage single-modality data to reduce reliance on paired datasets.
 
-Before starting my PhD, I worked as a **Data Scientist** at the [Translational Health Science and Technology Institute (THSTI)](https://thsti.res.in/), Government of India, under the supervision of [Prof. Shinjini Bhatnagar](https://thsti.res.in/en/faculty-profile/Shinjini-Bhatanagar). My work focused on developing machine learning algorithms for key challenges in maternal and child health — including the **detection of preterm birth**, **prediction of gestational age**, and the **assessment of neonatal outcomes**. This experience allowed me to apply data-driven approaches to high-impact, real-world health problems and further deepened my passion for research at the intersection of AI and healthcare.
+Prior to my PhD, I worked as a **Data Scientist** at the [Translational Health Science and Technology Institute (THSTI)](https://thsti.res.in/), Government of India, under the guidance of [Prof. Shinjini Bhatnagar](https://thsti.res.in/en/faculty-profile/Shinjini-Bhatanagar). There, I developed machine learning algorithms for a range of challenges in maternal and child health, including **preterm birth detection**, **gestational age prediction**, and **neonatal outcome assessment**. This role gave me valuable experience working closely with clinicians and public health experts to design machine learning tools for practical use in healthcare.
 
-Feel free to explore my website to learn more about my projects, publications, and ongoing work — or reach out if you're interested in collaborating!
+While many of my projects have focused on medical applications, my broader research interests span **video understanding**, **self-supervised learning**, and **large multi-modal models**, with the goal of advancing both foundational methods and their real-world impact across domains.
+
+Feel free to explore my website to learn more about my projects, publications, and ongoing work. I am always open to new collaborations and ideas. Please get in touch if you're interested in connecting!
 
 ---
 ## 📰 News & Achievements
@@ -29,11 +31,11 @@ Feel free to explore my website to learn more about my projects, publications, a
         <div class="news-item">
             <div class="news-date">Apr. 25</div>
             <div class="news-content">
-                <strong>Accepted to Medical Image Analysis (Journal Impact Factor 10.7):</strong>
+                <strong>Published in Medical Image Analysis (Journal Impact Factor 10.7):</strong>
                 <ul>
                     <li><strong>Video Understanding</strong><br>
                         TIER-LOC: Visual Query-based Video Clip Localization in Fetal Ultrasound Videos with a Multi-Tier Transformer<br>
-                        <em>Proceedings: Coming Soon</em>
+                        <em>Proceedings: <a href="https://www.sciencedirect.com/science/article/pii/S1361841524001230">Read it here</a></em>
                     </li>
                 </ul>
             </div>
@@ -231,15 +233,15 @@ Feel free to explore my website to learn more about my projects, publications, a
 <div class="publications-container">
     <div class="publication-card">
         <div class="publication-image">
-            <img src="images/stanloc_image.webp" alt="MCAT paper figure">
+            <img src="images/MAIN_FIGURE_AAAI_page-0001.jpg" alt="MCAT paper figure">
         </div>
         <div class="publication-content">
             <h3 class="publication-title">MCAT: Visual Query-Based Localization of Standard Anatomical Clips in Fetal Ultrasound Videos Using Multi-Tier Class-Aware Token Transformer</h3>
             <div class="publication-authors">Divyanshu Mishra, Pramit Saha, He Zhao, Netzahualcoyotl Hernandez-Cruz, Olga Patey, Aris T. Papageorghiou & J. Alison Noble</div>
             <div class="publication-venue">AAAI 2025</div>
-            <p class="publication-abstract">We introduce the Visual Query-based Video Clip Localization (VQ-VCL) task—retrieving a relevant video clip from a sequence given a query image—and present STAN-LOC, which leverages a query-aware spatio-temporal transformer with multi-anchor contrastive learning for robust clip localization.</p>
+            <p class="publication-abstract">We introduce the Visual Query-based Video Clip Localization (VQ-VCL) task—retrieving a relevant video clip from a sequence given a query image—and present MCAT, which leverages a multi-tier class-aware token transformer for robust clip localization in fetal ultrasound videos.</p>
             <div class="publication-links">
-                <a href="https://arxiv.org/abs/2411.11912" class="btn-dark">Arxiv Version</a>
+                <a href="https://arxiv.org/abs/2504.06088" class="btn-dark">Arxiv Version</a>
                 <a href="https://ojs.aaai.org/index.php/AAAI/article/view/35047" class="btn-warning">Conference Version</a>
             </div>
         </div>
@@ -247,7 +249,22 @@ Feel free to explore my website to learn more about my projects, publications, a
 
     <div class="publication-card">
         <div class="publication-image">
-            <img src="images/stanloc_image.webp" alt="STAN-LOC paper figure">
+            <img src="images/tierloc.jpg" alt="TIER-LOC paper figure">
+        </div>
+        <div class="publication-content">
+            <h3 class="publication-title">TIER-LOC: Visual Query-based Video Clip Localization in Fetal Ultrasound Videos with a Multi-Tier Transformer</h3>
+            <div class="publication-authors">Divyanshu Mishra, Pramit Saha, He Zhao, Netzahualcoyotl Hernandez-Cruz, Olga Patey, Aris T. Papageorghiou & J. Alison Noble</div>
+            <div class="publication-venue">Medical Image Analysis (Journal Impact Factor 10.7)</div>
+            <p class="publication-abstract">We introduce the Visual Query-based Video Clip Localization (VQ-VCL) task—retrieving a relevant video clip from a sequence given a query image—and present TIER-LOC, which leverages a multi-tier transformer architecture for robust clip localization in fetal ultrasound videos.</p>
+            <div class="publication-links">
+                <a href="https://www.sciencedirect.com/science/article/pii/S1361841524001230" class="btn-dark">Journal Link</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="publication-card">
+        <div class="publication-image">
+            <img src="images/stanloc_image.webp" alt="MCAT paper figure">
         </div>
         <div class="publication-content">
             <h3 class="publication-title">STAN-LOC: Visual Query-Based Video Clip Localization for Fetal Ultrasound Sweep Videos</h3>
@@ -273,22 +290,6 @@ Feel free to explore my website to learn more about my projects, publications, a
             <div class="publication-links">
                 <a href="https://arxiv.org/pdf/2311.00469.pdf" class="btn-dark">Arxiv Version</a>
                 <a href="https://link.springer.com/chapter/10.1007/978-3-031-43907-0_21" class="btn-warning">Conference Version</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="publication-card">
-        <div class="publication-image">
-            <img src="images/isofed.webp" alt="IsoFed paper figure">
-        </div>
-        <div class="publication-content">
-            <h3 class="publication-title">Rethinking Semi-Supervised Federated Learning: How to Co-train Fully-Labeled and Fully-Unlabeled Client Imaging Data</h3>
-            <div class="publication-authors">Pramit Saha, Divyanshu Mishra, J. Alison Noble</div>
-            <div class="publication-venue">MICCAI 2023</div>
-            <p class="publication-abstract">The most challenging, yet practical, setting of semi-supervised federated learning (SSFL) is where a few clients have fully labeled data whereas the other clients have fully unlabeled data. This is particularly common in healthcare settings where collaborating partners (typically hospitals) may have images but not annotations. We propose IsoFed that circumvents the problem by avoiding simple averaging of supervised and semi-supervised models together.</p>
-            <div class="publication-links">
-                <a href="https://arxiv.org/pdf/2310.18815v1.pdf" class="btn-dark">Arxiv Version</a>
-                <a href="https://link.springer.com/chapter/10.1007/978-3-031-43895-0_39" class="btn-warning">Conference Version</a>
             </div>
         </div>
     </div>
