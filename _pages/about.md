@@ -257,7 +257,7 @@ Feel free to explore my website to learn more about my projects, publications, a
             <div class="publication-venue">Medical Image Analysis (Journal Impact Factor 10.7)</div>
             <p class="publication-abstract">We introduce the Visual Query-based Video Clip Localization (VQ-VCL) task—retrieving a relevant video clip from a sequence given a query image—and present TIER-LOC, which leverages a multi-tier transformer architecture for robust clip localization in fetal ultrasound videos.</p>
             <div class="publication-links">
-                <a href="https://www.sciencedirect.com/science/article/pii/S1361841524001230" class="btn-dark">Journal Link</a>
+                <a href="https://www.sciencedirect.com/science/article/pii/S1361841525001586" class="btn-dark">Journal Link</a>
             </div>
         </div>
     </div>
