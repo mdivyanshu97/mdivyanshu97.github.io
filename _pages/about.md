@@ -10,7 +10,7 @@ redirect_from:
 
 ## 📰 Welcome to My Website!
 
-I'm **Divyanshu Mishra**, a PhD student in the Department of Engineering Science at the [University of Oxford](https://www.ox.ac.uk/), supervised by [Professor Alison Noble](https://ibme.ox.ac.uk/person/alison-noble/). I’m honoured to be fully funded by the **Athena-Bronze Scholarship**.
+I'm **Divyanshu Mishra**, a PhD student in the Department of Engineering Science at the [University of Oxford](https://www.ox.ac.uk/), supervised by [Professor Alison Noble](https://ibme.ox.ac.uk/person/alison-noble/). I'm honoured to be fully funded by the **Athena-Bronze Scholarship**.
 
 My research focuses on **long video understanding**, specifically in **video localization**, **self-supervised video representation learning**, and **multi-modal large language models**. I develop these methods in the context of **fetal ultrasound videos**, with the goal of significantly improving the early detection of **Congenital Heart Diseases**. Ultimately, my work aims to develop **algorithms that streamline the workflow of sonographers and assist clinicians in diagnosing congenital heart conditions**.
 
@@ -20,143 +20,277 @@ Before starting my PhD, I worked as a **Data Scientist** at the [Translational H
 
 Feel free to explore my website to learn more about my projects, publications, and ongoing work — or reach out if you're interested in collaborating!
 
-
 ---
 ## 📰 News & Achievements
 
-**Apr. 25**
-
-    - **Accepted to Medical Image Analysis (Journal Impact Factor 10.7):**
-        - **Video Understanding**  
-            TIER-LOC: Visual Query-based Video Clip Localization in Fetal Ultrasound Videos with a Multi-Tier Transformer
-            **Proceedings:** Coming Soon
----
-- **Mar. 25**
-    - **Preprint:** 
-        - **Video Understanding and Model Merging**  
-            Self-supervised Normality Learning and Divergence Vector-guided Model Merging for Zero-shot Congenital Heart Disease Detection in Fetal Ultrasound Videos  
-            **Proceedings:** [Read it here](https://arxiv.org/pdf/2503.07799)
-    - **Accepted to CVPR 2025:**
-        - **Federated Learning**  
-            F3OCUS – Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics  
-            **Proceedings:** [Read it here](https://arxiv.org/abs/2411.11912)
-   
-
-- **Dec. 24**
-    - **Accepted to AAAI 2025:**
-        - **Video Understanding:**  
-          *First-authored paper*  
-          MCAT: Visual Query-Based Localization of Standard Anatomical Clips in Fetal Ultrasound Videos using Multi-Tier Class-Aware Token Transformer
-          *Proceedings [Read it here](https://ojs.aaai.org/index.php/AAAI/article/view/35047)*
-        - **Federated Learning:**  
-          *Second-authored papers*  
-          1. FedPIA -- Permuting and Integrating Adapters leveraging Wasserstein Barycenters for Finetuning Foundation Models in Multi-Modal Federated Learning
-             **Proceedings:** [Read it here](https://arxiv.org/abs/2412.14424)
-          2. Rethinking Semi-Supervised Federated Learning: How to Co-train Fully-Labeled and Fully-Unlabeled Client Imaging Data
-             **Proceedings:** [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_39)
-    
-- **Aug. 24**
-    - **Internship at Amazon Science:**  
-      Selected as an **Applied Scientist** to work on **Video-LLMs**, focusing on training methodologies using single-modality to reduce dependency on paired data.
-    
-- **Jul. 24**
-    - **Video Understanding:**
-    - **Accepted to MICCAI 2024:**
-        - **STAN-LOC: Visual Query-Based Video Clip Localization for Fetal Ultrasound Sweep Videos**  
-          *First-authored paper*  
-          [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-72083-3_69)
-    
-- **Nov. 23**
-    - **Guest Speaker:**  
-      Delivered a talk at the [Synthetic Data for Machine Learning](https://www.bmva.org/meetings/23-11-08-Synthetic%20Data%20for%20Machine%20Learning.html) conference organized by The British Machine Vision Association and Society for Computer Vision.
-    
-- **Aug. 23**
-    - **Accepted for Oral Presentations at ISUOG World Congress 2023:**
-        1. [Abstract 1](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1002/uog.26323)  
-           *ISUOG World Congress 2023*
-        2. [Abstract 2](https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/uog.26499)  
-           *ISUOG World Congress 2023*
+<div class="news-container">
+    <div class="news-section">
+        <h3>📚 Publications</h3>
+        <div class="news-item">
+            <div class="news-date">Apr. 25</div>
+            <div class="news-content">
+                <strong>Accepted to Medical Image Analysis (Journal Impact Factor 10.7):</strong>
+                <ul>
+                    <li><strong>Video Understanding</strong><br>
+                        TIER-LOC: Visual Query-based Video Clip Localization in Fetal Ultrasound Videos with a Multi-Tier Transformer<br>
+                        <em>Proceedings: Coming Soon</em>
+                    </li>
+                </ul>
+            </div>
+        </div>
         
-    - **Accepted to MICCAI 2023:**
-        1. **Dual Conditioned Diffusion Models for Out-of-Distribution Detection: Application to Fetal Ultrasound Videos**  
-           *First-authored paper*  
-           [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-43907-0_21)
-        
-        2. **Rethinking Semi-Supervised Federated Learning: How to Co-train Fully-Labeled and Fully-Unlabeled Client Imaging Data**  
-           *Second-authored paper*  
-           [Read it here](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_39)
-    
-- **Jul. 23**
-      Attended the [International Computer Vision Summer School](https://iplab.dmi.unict.it/icvss2023/Home) held in Sicily, Italy. Selected among 100 students each year.
-    
-- **Oct. 22**
-    - **DPhil Enrollment:**  
-      Started a fully-funded **DPhil** (PhD) program funded by the **Athena-Bronze Scholarship**, supervised by [Professor Alison Noble](https://ibme.ox.ac.uk/person/alison-noble/) and [Professor Vicente Grau Colomer](https://ibme.ox.ac.uk/person/vicente-grau-colomer/).
+        <div class="news-item">
+            <div class="news-date">Mar. 25</div>
+            <div class="news-content">
+                <strong>Preprint:</strong>
+                <ul>
+                    <li><strong>Video Understanding and Model Merging</strong><br>
+                        Self-supervised Normality Learning and Divergence Vector-guided Model Merging for Zero-shot Congenital Heart Disease Detection in Fetal Ultrasound Videos<br>
+                        <em>Proceedings: <a href="https://arxiv.org/pdf/2503.07799">Read it here</a></em>
+                    </li>
+                </ul>
+                <strong>Accepted to CVPR 2025:</strong>
+                <ul>
+                    <li><strong>Federated Learning</strong><br>
+                        F3OCUS – Federated Finetuning of Vision-Language Foundation Models with Optimal Client Layer Updating Strategy via Multi-objective Meta-Heuristics<br>
+                        <em>Proceedings: <a href="https://arxiv.org/abs/2411.11912">Read it here</a></em>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
+    <div class="news-section">
+        <h3>🎓 Academic & Professional</h3>
+        <div class="news-item">
+            <div class="news-date">Aug. 24</div>
+            <div class="news-content">
+                <strong>Internship at Amazon Science:</strong><br>
+                Selected as an <strong>Applied Scientist</strong> to work on <strong>Video-LLMs</strong>, focusing on training methodologies using single-modality to reduce dependency on paired data.
+            </div>
+        </div>
 
+        <div class="news-item">
+            <div class="news-date">Nov. 23</div>
+            <div class="news-content">
+                <strong>Guest Speaker:</strong><br>
+                Delivered a talk at the <a href="https://www.bmva.org/meetings/23-11-08-Synthetic%20Data%20for%20Machine%20Learning.html">Synthetic Data for Machine Learning</a> conference organized by The British Machine Vision Association and Society for Computer Vision.
+            </div>
+        </div>
+    </div>
+</div>
 
----
+<style>
+.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.news-section {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.news-item {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.news-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.news-date {
+    min-width: 100px;
+    font-weight: bold;
+    color: #495057;
+}
+
+.news-content {
+    flex: 1;
+}
+
+.news-content ul {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.news-content li {
+    margin-bottom: 0.5rem;
+}
+</style>
+
 ## Selected Publications
 <section id="publications"> 
 <style>
-        /* Add some basic styling to arrange elements */
-        .container {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            gap: 20px;
-        }
+.publications-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 
-        .image {
-            max-width: 300px; /* Adjust the width as needed */
-        }
+.publication-card {
+    display: flex;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
 
-        .description-box {
-            flex: 1; /* Allow the description box to grow to fill available space */
-            background-color: #f0f0f0; /* Background color for the description box */
-            padding: 10px;
-            border: 1px solid #ccc;
-        }
+.publication-card:hover {
+    transform: translateY(-2px);
+}
+
+.publication-image {
+    flex: 0 0 300px;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.publication-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.publication-content {
+    flex: 1;
+    padding: 1.5rem;
+}
+
+.publication-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #2c3e50;
+}
+
+.publication-authors {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.75rem;
+}
+
+.publication-venue {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.publication-abstract {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+.publication-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.publication-links a {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
 </style>
-<div class="container">
-        <img src="images/stanloc_image.webp" alt="paper_figure" class="image">
-        <div class="description-box">
-            <h3>STAN-LOC: Visual Query-Based Video Clip Localization for Fetal Ultrasound Sweep Videos</h3>
-            <p><small>Divyanshu Mishra, Pramit Saha, He Zhao, Olga Patey, Aris T. Papageorghiou & J. Alison Noble  <br>
-            <i>MICCAI 2024</i> <br>
-            We introduce the Visual Query-based Video Clip Localization (VQ-VCL) task—retrieving a relevant video clip from a sequence given a query image—and present STAN-LOC, which leverages a query-aware spatio-temporal transformer with multi-anchor contrastive learning for robust clip localization.
-            </small>
-            </p>
+
+<div class="publications-container">
+    <div class="publication-card">
+        <div class="publication-image">
+            <img src="images/stanloc_image.webp" alt="MCAT paper figure">
         </div>
-</div>
-
-<a role="button" href="[arxiv_link]" class="btn btn-dark">Arxiv Version</a>     <a role="button" href="https://link.springer.com/chapter/10.1007/978-3-031-72083-3_69" class="btn btn-warning">Conference Version</a>
-
-<div class="container">
-        <img src="images/dcdm_figure.webp" alt="paper_figure" class="image">
-        <div class="description-box">
-            <h3>Dual Conditioned Diffusion Models for Out-of-Distribution Detection: Application to Fetal Ultrasound Videos</h3>
-            <p><small><b>Divyanshu Mishra</b>,He Zhao, Pramit Saha,Aris T. Papageorghiou & J. Alison Noble <br>
-            <i>MICCAI 2023</i> <br>
-            Out-of-distribution (OOD) detection is essential to improve the reliability of machine learning models by detecting samples that do not belong to the training distribution. We introduce Dual Conditioned Diffusion models (DCDM) to detect OOD samples in Ultrasound videos given we have information only about ID samples during training.
-            </small>
-            </p>
+        <div class="publication-content">
+            <h3 class="publication-title">MCAT: Visual Query-Based Localization of Standard Anatomical Clips in Fetal Ultrasound Videos Using Multi-Tier Class-Aware Token Transformer</h3>
+            <div class="publication-authors">Divyanshu Mishra, Pramit Saha, He Zhao, Netzahualcoyotl Hernandez-Cruz, Olga Patey, Aris T. Papageorghiou & J. Alison Noble</div>
+            <div class="publication-venue">AAAI 2025</div>
+            <p class="publication-abstract">We introduce the Visual Query-based Video Clip Localization (VQ-VCL) task—retrieving a relevant video clip from a sequence given a query image—and present STAN-LOC, which leverages a query-aware spatio-temporal transformer with multi-anchor contrastive learning for robust clip localization.</p>
+            <div class="publication-links">
+                <a href="https://arxiv.org/abs/2411.11912" class="btn-dark">Arxiv Version</a>
+                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/35047" class="btn-warning">Conference Version</a>
+            </div>
         </div>
-</div>
+    </div>
 
-<a role="button" href="https://arxiv.org/pdf/2311.00469.pdf" class="btn btn-dark">Arxiv Version</a>     <a role="button" href="https://link.springer.com/chapter/10.1007/978-3-031-43907-0_21" class="btn btn-warning">Conference Version</a>
-
-<div class="container">
-        <img src="images/isofed.webp" alt="paper_figure" class="image">
-        <div class="description-box">
-            <h3>Rethinking Semi-Supervised Federated Learning: How to Co-train Fully-Labeled and Fully-Unlabeled Client Imaging Data</h3>
-            <p><small>Pramit Saha,<b>Divyanshu Mishra</b>, J. Alison Noble <br>
-            <i>MICCAI 2023</i> <br>
-            The most challenging, yet practical, setting of semi-supervised federated learning (SSFL) is where a few clients have fully labeled data whereas the other clients have fully unlabeled data. This is particularly common in healthcare settings where collaborating partners (typically hospitals) may have images but not annotations. We propose IsoFed that circumvents the problem by avoiding simple averaging of supervised and semi-supervised models together. 
-            </small>
-            </p>
+    <div class="publication-card">
+        <div class="publication-image">
+            <img src="images/stanloc_image.webp" alt="STAN-LOC paper figure">
         </div>
-</div>
+        <div class="publication-content">
+            <h3 class="publication-title">STAN-LOC: Visual Query-Based Video Clip Localization for Fetal Ultrasound Sweep Videos</h3>
+            <div class="publication-authors">Divyanshu Mishra, Pramit Saha, He Zhao, Olga Patey, Aris T. Papageorghiou & J. Alison Noble</div>
+            <div class="publication-venue">MICCAI 2024</div>
+            <p class="publication-abstract">We introduce the Visual Query-based Video Clip Localization (VQ-VCL) task—retrieving a relevant video clip from a sequence given a query image—and present STAN-LOC, which leverages a query-aware spatio-temporal transformer with multi-anchor contrastive learning for robust clip localization.</p>
+            <div class="publication-links">
+                <a href="https://arxiv.org/abs/2411.11912" class="btn-dark">Arxiv Version</a>
+                <a href="https://link.springer.com/chapter/10.1007/978-3-031-72083-3_69" class="btn-warning">Conference Version</a>
+            </div>
+        </div>
+    </div>
 
-<a role="button" href="https://arxiv.org/pdf/2310.18815v1.pdf" class="btn btn-dark">Arxiv Version</a>     <a role="button" href="https://link.springer.com/chapter/10.1007/978-3-031-43895-0_39" class="btn btn-warning">Conference Version</a>
+    <div class="publication-card">
+        <div class="publication-image">
+            <img src="images/dcdm_figure.webp" alt="DCDM paper figure">
+        </div>
+        <div class="publication-content">
+            <h3 class="publication-title">Dual Conditioned Diffusion Models for Out-of-Distribution Detection: Application to Fetal Ultrasound Videos</h3>
+            <div class="publication-authors">Divyanshu Mishra, He Zhao, Pramit Saha, Aris T. Papageorghiou & J. Alison Noble</div>
+            <div class="publication-venue">MICCAI 2023</div>
+            <p class="publication-abstract">Out-of-distribution (OOD) detection is essential to improve the reliability of machine learning models by detecting samples that do not belong to the training distribution. We introduce Dual Conditioned Diffusion models (DCDM) to detect OOD samples in Ultrasound videos given we have information only about ID samples during training.</p>
+            <div class="publication-links">
+                <a href="https://arxiv.org/pdf/2311.00469.pdf" class="btn-dark">Arxiv Version</a>
+                <a href="https://link.springer.com/chapter/10.1007/978-3-031-43907-0_21" class="btn-warning">Conference Version</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="publication-card">
+        <div class="publication-image">
+            <img src="images/isofed.webp" alt="IsoFed paper figure">
+        </div>
+        <div class="publication-content">
+            <h3 class="publication-title">Rethinking Semi-Supervised Federated Learning: How to Co-train Fully-Labeled and Fully-Unlabeled Client Imaging Data</h3>
+            <div class="publication-authors">Pramit Saha, Divyanshu Mishra, J. Alison Noble</div>
+            <div class="publication-venue">MICCAI 2023</div>
+            <p class="publication-abstract">The most challenging, yet practical, setting of semi-supervised federated learning (SSFL) is where a few clients have fully labeled data whereas the other clients have fully unlabeled data. This is particularly common in healthcare settings where collaborating partners (typically hospitals) may have images but not annotations. We propose IsoFed that circumvents the problem by avoiding simple averaging of supervised and semi-supervised models together.</p>
+            <div class="publication-links">
+                <a href="https://arxiv.org/pdf/2310.18815v1.pdf" class="btn-dark">Arxiv Version</a>
+                <a href="https://link.springer.com/chapter/10.1007/978-3-031-43895-0_39" class="btn-warning">Conference Version</a>
+            </div>
+        </div>
+    </div>
+</div>
 </section>
