@@ -29,7 +29,8 @@ Feel free to explore my website to learn more about my projects, publications, a
     <div class="news-section">
         <h3>📚 Publications</h3>
 
-        <div class="news-item">
+    <!-- Sep 2025 -->
+<div class="news-item">
   <div class="news-date">Sep. 25</div>
   <div class="news-content">
     <strong>Accepted to NeurIPS 2025:</strong>
@@ -42,6 +43,7 @@ Feel free to explore my website to learn more about my projects, publications, a
   </div>
 </div>
 
+<!-- Jun 2025 -->
 <div class="news-item">
   <div class="news-date">Jun. 25</div>
   <div class="news-content">
@@ -55,13 +57,17 @@ Feel free to explore my website to learn more about my projects, publications, a
   </div>
 </div>
 
+<!-- Aug 2023 -->
 <div class="news-item">
   <div class="news-date">Aug. 23</div>
   <div class="news-content">
     <strong>Accepted:</strong><br>
     HarmonicEchoNet – Leveraging harmonic convolutions for automated standard plane detection in fetal heart ultrasound videos.
+    <em>Links: <a href="https://doi.org/10.1016/j.media.2025.103758">Journal</a></em>
+
   </div>
 </div>
+
 
         <div class="news-item">
             <div class="news-date">Apr. 25</div>

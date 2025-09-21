@@ -1,0 +1,16 @@
+current directory: /Users/engs2456/Documents/mdivyanshu97.github.io/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/Users/engs2456/.rbenv/versions/3.1.0/bin/ruby -I /Users/engs2456/.rbenv/versions/3.1.0/lib/ruby/3.1.0 -r ./siteconf20250921-88207-uoc755.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/engs2456/Documents/mdivyanshu97.github.io/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= clean
+
+current directory: /Users/engs2456/Documents/mdivyanshu97.github.io/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\=
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/engs2456/Documents/mdivyanshu97.github.io/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20250921-88207-2vyn7r
