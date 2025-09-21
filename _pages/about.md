@@ -28,10 +28,45 @@ Feel free to explore my website to learn more about my projects, publications, a
 <div class="news-container">
     <div class="news-section">
         <h3>📚 Publications</h3>
+
+        <div class="news-item">
+  <div class="news-date">Sep. 25</div>
+  <div class="news-content">
+    <strong>Accepted to NeurIPS 2025:</strong>
+    <ul>
+      <li><strong>Self-Supervised Learning</strong><br>
+        DISCOVR – Self-supervised Learning of Echocardiographic Video Representations via Online Cluster Distillation<br>
+        <em>Links: <a href="https://arxiv.org/abs/2506.11777">ArXiv</a> · <a href="https://github.com/mdivyanshu97/DISCOVR">Code</a></em>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Jun. 25</div>
+  <div class="news-content">
+    <strong>Accepted to MICCAI 2025:</strong>
+    <ul>
+      <li><strong>Video Anomaly Detection & Model Merging</strong><br>
+        STUD + DiVMerge – Self-supervised Normality Learning and Divergence Vector-guided Model Merging for Zero-shot CHD Detection in Fetal Ultrasound Videos<br>
+        <em>Links: <a href="https://arxiv.org/abs/2503.07799">ArXiv</a></em>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">Aug. 23</div>
+  <div class="news-content">
+    <strong>Accepted:</strong><br>
+    HarmonicEchoNet – Leveraging harmonic convolutions for automated standard plane detection in fetal heart ultrasound videos.
+  </div>
+</div>
+
         <div class="news-item">
             <div class="news-date">Apr. 25</div>
             <div class="news-content">
-                <strong>Published in Medical Image Analysis (Journal Impact Factor 10.7):</strong>
+                <strong>Published in Medical Image Analysis (Journal Impact Factor 11.8):</strong>
                 <ul>
                     <li><strong>Video Understanding</strong><br>
                         TIER-LOC: Visual Query-based Video Clip Localization in Fetal Ultrasound Videos with a Multi-Tier Transformer<br>
