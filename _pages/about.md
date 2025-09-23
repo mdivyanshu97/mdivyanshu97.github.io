@@ -61,7 +61,7 @@ Feel free to explore my website to learn more about my projects, publications, a
 <div class="news-item">
   <div class="news-date">Aug. 23</div>
   <div class="news-content">
-    <strong>Accepted:</strong><br>
+    <strong>Published in Medical Image Analysis (Journal Impact Factor 11.8):</strong><br>
     HarmonicEchoNet – Leveraging harmonic convolutions for automated standard plane detection in fetal heart ultrasound videos.
     <em>Links: <a href="https://doi.org/10.1016/j.media.2025.103758">Journal</a></em>
 
