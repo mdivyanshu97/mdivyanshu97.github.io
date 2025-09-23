@@ -25,8 +25,8 @@ Feel free to explore my website to learn more about my projects, publications, a
 ---
 ## 📰 News & Achievements
 
-<div class="news-container">
-    <div class="news-section">
+<div class="news-container" markdown="0">
+    <div class="news-section" markdown="0">
         <h3>📚 Publications</h3>
 
     <!-- Sep 2025 -->
@@ -62,15 +62,16 @@ Feel free to explore my website to learn more about my projects, publications, a
   <div class="news-date">Aug. 23</div>
   <div class="news-content">
     <strong>Published in Medical Image Analysis (Journal Impact Factor 11.8):</strong><br>
-     <li><strong>Representation Learning</strong><br>
-
-    HarmonicEchoNet – Leveraging harmonic convolutions for automated standard plane detection in fetal heart ultrasound videos.
-    <em>Links: <a href="https://doi.org/10.1016/j.media.2025.103758">Journal</a></em>
-
+    <ul>
+      <li><strong>Representation Learning</strong><br>
+      
+      HarmonicEchoNet – Leveraging harmonic convolutions for automated standard plane detection in fetal heart ultrasound videos.
+      <em>Links: <a href="https://doi.org/10.1016/j.media.2025.103758">Journal</a></em>
+      </li>
+    </ul>
   </div>
 </div>
-
-
+    
         <div class="news-item">
             <div class="news-date">Apr. 25</div>
             <div class="news-content">
@@ -103,9 +104,11 @@ Feel free to explore my website to learn more about my projects, publications, a
                 </ul>
             </div>
         </div>
+    
     </div>
+    
 
-    <div class="news-section">
+    <div class="news-section" markdown="0">
         <h3>🎓 Academic & Professional</h3>
         <div class="news-item">
             <div class="news-date">Aug. 24</div>
@@ -123,7 +126,7 @@ Feel free to explore my website to learn more about my projects, publications, a
             </div>
         </div>
     </div>
-</div>
+    
 
 <style>
 .news-container {
@@ -173,8 +176,10 @@ Feel free to explore my website to learn more about my projects, publications, a
 }
 </style>
 
+</div>
+
 ## Selected Publications
-<section id="publications"> 
+<section id="publications" markdown="0"> 
 <style>
 .publications-container {
     display: flex;
@@ -273,7 +278,40 @@ Feel free to explore my website to learn more about my projects, publications, a
 }
 </style>
 
-<div class="publications-container">
+<!-- NeurIPS 2025 -->
+<div class="publication-card" markdown="0">
+  <div class="publication-image">
+    <img src="images/DISCOVR.jpg" alt="DISCOVR framework figure">
+  </div>
+  <div class="publication-content">
+    <h3 class="publication-title">DISCOVR: Self-supervised Learning of Echocardiographic Video Representations via Online Cluster Distillation</h3>
+    <div class="publication-authors">Divyanshu Mishra, Mohammadreza Salehi, Pramit Saha, Olga Patey, Aris T. Papageorghiou, Yuki M. Asano & J. Alison Noble</div>
+    <div class="publication-venue">NeurIPS 2025 </div>
+    <p class="publication-abstract">A dual-branch SSL framework that aligns a clustering-based video encoder with an online image encoder via semantic cluster distillation, yielding spatially rich and temporally coherent representations for cardiac ultrasound.</p>
+    <div class="publication-links">
+      <a href="https://arxiv.org/abs/2506.11777" class="btn-dark">ArXiv Version</a>
+      <a href="https://github.com/mdivyanshu97/DISCOVR" class="btn-warning">Code</a>
+    </div>
+  </div>
+</div>
+
+<!-- MICCAI 2025 -->
+<div class="publication-card" markdown="0">
+  <div class="publication-image">
+    <img src="images/STUD.png" alt="STUD + DiVMerge overview">
+  </div>
+  <div class="publication-content">
+    <h3 class="publication-title">STUD + DiVMerge: Self-supervised Normality Learning and Divergence Vector-guided Model Merging for Zero-shot CHD Detection in Fetal Ultrasound Videos</h3>
+    <div class="publication-authors">Pramit Saha*, Divyanshu Mishra*, Netzahualcoyotl Hernandez-Cruz, Olga Patey, Aris T. Papageorghiou, Yuki M. Asano & J. Alison Noble</div>
+    <div class="publication-venue">MICCAI 2025</div>
+    <p class="publication-abstract">Each site trains a sparse-tube SSL anomaly detector on normal fetal heart videos; models are merged privacy-preservingly via divergence-vector-guided selection and weighting, enabling zero-shot detection of multiple CHD types.</p>
+    <div class="publication-links">
+      <a href="https://arxiv.org/abs/2503.07799" class="btn-dark">ArXiv Version</a>
+    </div>
+  </div>
+</div>
+
+<div class="publications-container" markdown="0">
     <div class="publication-card">
         <div class="publication-image">
             <img src="images/MAIN_FIGURE_AAAI_page-0001.jpg" alt="MCAT paper figure">
