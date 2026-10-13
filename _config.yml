@@ -10,7 +10,7 @@ locale                   : "en-UK"
 title                    : "Divyanshu Mishra"
 title_separator          : "-"
 name                     : &name "Divyanshu Mishra"
-description              : &description "personal description"
+description              : &description "Multimodal and LLM post-training, smaller domain models, and efficient tool use."
 url                      : https://mdivyanshu97.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Divyanshu Mishra"
   avatar           : "my_pic.jpeg"
-  bio              : "DPhil student at the University of Oxford"
+  bio              : "Senior Research Scientist at Amazon working on multimodal and LLM post-training."
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=rm7rbz8AAAAJ&hl=eng"
