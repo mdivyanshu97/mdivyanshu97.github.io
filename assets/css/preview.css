@@ -317,6 +317,27 @@ a {
   transform: translateY(-3px);
 }
 
+.highlight-card--orena {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  align-items: center;
+}
+
+.highlight-card--orena .highlight-image {
+  aspect-ratio: auto;
+  padding: 22px;
+  background: #fff;
+}
+
+.highlight-card--orena .highlight-copy {
+  padding: 26px;
+}
+
+.highlight-card--orena .highlight-copy h3 {
+  font-size: 27px;
+}
+
 .highlight-image {
   aspect-ratio: 1 / 0.88;
   display: grid;
@@ -545,6 +566,10 @@ footer a {
 }
 
 @media (max-width: 600px) {
+  .highlight-card--orena {
+    grid-template-columns: 1fr;
+  }
+
   body {
     font-size: 17px;
   }
