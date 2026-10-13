@@ -1,0 +1,47 @@
+{
+  "evaluation_scope": "Separate local offline studies, not official challenge scores.",
+  "studies": [
+    {
+      "id": "segment-refinement",
+      "track": "Segment",
+      "label": "Answer-guided temporal refinement",
+      "baseline": 50.4,
+      "improved": 55.0,
+      "n": 1577,
+      "subset": "Single-timestamp questions",
+      "change": "One additional 64-frame pass within ±15 seconds of the first answer.",
+      "boundary": "Earlier Segment checkpoint; this is not an overall track score.",
+      "source": "Segment inference temporal-cascade comments; archived spotlight fact check."
+    },
+    {
+      "id": "segment-question-window",
+      "track": "Segment",
+      "label": "Question-anchored evidence windows",
+      "baseline": 72.7,
+      "improved": 79.1,
+      "n": 422,
+      "subset": "Questions that state a timestamp",
+      "change": "Spend the same 64 frames inside ±30-second question-anchored windows.",
+      "boundary": "A separate question population from the refinement study.",
+      "source": "Segment resources/question_window.py, recorded window-width study."
+    },
+    {
+      "id": "procedure-search",
+      "track": "Procedure",
+      "label": "Coarse-to-fine temporal search",
+      "baseline": 6.8,
+      "improved": 35.1,
+      "n": 746,
+      "subset": "Single-timestamp questions",
+      "change": "Three passes: full procedure → 1,200 seconds → 100 seconds, at 128/128/64 frames.",
+      "boundary": "Single-checkpoint search study before the later W64/NW2 routing split.",
+      "source": "Procedure inference temporal-cascade comments; archived spotlight fact check."
+    }
+  ],
+  "pre_evaluation": {
+    "segment": 0.5656564984886887,
+    "procedure_technical": 0.4112059081777602,
+    "procedure_clinical": 0.5572717019874663,
+    "source": "The two repositories' provenance/release.json records."
+  }
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Divyanshu Mishra's solo ORena SAVE FOCUS project: surgical VLM fine-tuning, LoRA adaptation, coarse-to-fine temporal search, and reproducible offline inference.">
+    <meta property="og:title" content="Surgical video QA — Divyanshu Mishra">
+    <meta property="og:description" content="From surgical data preparation and multimodal SFT to question-aware temporal search. A solo ORena SAVE FOCUS submission.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mdivyanshu97.github.io/orena/">
+    <meta property="og:image" content="https://mdivyanshu97.github.io/orena/figures/training.png">
+    <meta name="theme-color" content="#f7f6f1">
+    <title>Surgical video QA · ORena — Divyanshu Mishra</title>
+    <link rel="canonical" href="https://mdivyanshu97.github.io/orena/">
+    <link rel="stylesheet" href="styles.css">
+    <script src="search.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="masthead">
+      <div class="wrap masthead-inner">
+        <a class="wordmark" href="../">Divyanshu Mishra <span>/ ORena</span></a>
+        <nav aria-label="Project navigation">
+          <a href="#training">Training</a>
+          <a href="#search">Inference</a>
+          <a href="#results">Results</a>
+          <a href="#code">Code</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="wrap hero">
+        <div>
+          <p class="eyebrow">Solo project · ORena SAVE FOCUS 2026</p>
+          <h1>Fine-tuning a VLM to <em>understand surgical video.</em></h1>
+          <p class="hero-copy">
+            I adapted Qwen3-VL-4B to surgical foreign-object question answering,
+            then built a temporal search policy that spends frames where the question
+            needs them. The result is two complementary, fully local inference systems.
+          </p>
+          <p class="byline">
+            <strong>Divyanshu Mishra</strong>
+            <span>Developed independently under the team name “Incision Impossible”</span>
+          </p>
+          <div class="actions">
+            <a class="button primary" href="#code">Explore both repositories <span aria-hidden="true">↗</span></a>
+            <a class="button" href="spotlight.pdf">Project slides <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Illustration of coarse-to-fine temporal search">
+          <div class="visual-top"><span>Question-aware evidence</span><span class="live-dot">Illustration</span></div>
+          <p class="visual-question">“When is the needle<br>first seen?”</p>
+          <div class="mini-stage">
+            <div class="mini-stage-label"><strong>01 · Find the region</strong><span>Whole procedure</span></div>
+            <div class="film"></div>
+          </div>
+          <div class="mini-stage">
+            <div class="mini-stage-label"><strong>02 · Look closer</strong><span>20-minute window</span></div>
+            <div class="film medium"></div>
+          </div>
+          <div class="mini-stage">
+            <div class="mini-stage-label"><strong>03 · Refine the time</strong><span>100-second window</span></div>
+            <div class="film narrow"></div>
+          </div>
+          <div class="visual-answer"><code>00:33:00</code><span>Illustrative answer<br>Absolute video time</span></div>
+        </div>
+      </section>
+
+      <div class="wrap skill-strip" aria-label="Technical contributions">
+        <div><strong>Data construction</strong><span>Surgical QA + multimodal chat</span></div>
+        <div><strong>VLM post-training</strong><span>Supervised LoRA adaptation</span></div>
+        <div><strong>Temporal inference</strong><span>Question-aware frame allocation</span></div>
+        <div><strong>Reproducible release</strong><span>Pinned weights + offline Docker</span></div>
+      </div>
+
+      <section class="wrap section" id="code">
+        <div class="section-intro">
+          <div><p class="eyebrow">The project</p><h2>One recipe.<br>Two video scales.</h2></div>
+          <p>
+            Short segments need precise local evidence; hour-long procedures need a
+            search strategy. Both repositories share the surgical adaptation recipe,
+            answer-format constraints, and absolute-time frame overlays.
+          </p>
+        </div>
+        <div class="repo-grid">
+          <article class="repo-card">
+            <p class="repo-index">01 / DISCOVR-SEGMENT</p>
+            <h3>Short-video reasoning</h3>
+            <p>
+              One merged checkpoint answers segment questions. A predicted timestamp
+              triggers a second look within ±15 seconds; timestamps stated in a
+              question guide ±30-second evidence windows.
+            </p>
+            <div class="repo-spec"><span>1 checkpoint</span><span>64 frames per pass</span><span>Vision + language LoRA</span></div>
+            <div class="text-links">
+              <a href="https://github.com/mdivyanshu97/orena-focus-segment">Repository ↗</a>
+              <a href="https://github.com/mdivyanshu97/orena-focus-segment/blob/main/TRAINING.md">Training recipe</a>
+              <a href="https://huggingface.co/Div97/orena-focus-segment-fullvis-w64">Weights</a>
+            </div>
+          </article>
+          <article class="repo-card">
+            <p class="repo-index">02 / DISCOVR-PROCEDURE</p>
+            <h3>Long-video temporal search</h3>
+            <p>
+              W64 supplies a broad event pointer. NW2 refines it twice and answers
+              other questions. Models load sequentially to fit the validation GPU;
+              needle reappearance uses four post-anchor presence checks.
+            </p>
+            <div class="repo-spec"><span>W64 → NW2</span><span>128 / 128 / 64 frames</span><span>1 model resident</span></div>
+            <div class="text-links">
+              <a href="https://github.com/mdivyanshu97/orena-focus-procedure">Repository ↗</a>
+              <a href="https://github.com/mdivyanshu97/orena-focus-procedure/blob/main/TRAINING.md">Training recipe</a>
+              <a href="https://huggingface.co/Div97/orena-focus-procedure-w64-nw2">Weights</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="wrap section" id="training">
+        <div class="section-intro">
+          <div><p class="eyebrow">01 / Post-training</p><h2>Learn the domain,<br>then learn the task.</h2></div>
+          <p>
+            I constructed surgical scene-literacy data from SSG-VQA and CholecT45,
+            continued the adapters on joint FRAME, SEGMENT, and PROCEDURE supervision,
+            and merged each selected adapter into its own bfloat16 model.
+          </p>
+        </div>
+        <figure class="figure">
+          <img src="figures/training.svg" width="1200" height="460"
+            alt="Qwen3-VL-4B is adapted with surgical SSG-VQA warm-up and joint FOCUS supervised fine-tuning. Segment adapts language, vision and mergers; Procedure uses independent W64 and NW2 language adapters.">
+          <figcaption>
+            Shared training design, distinct checkpoints. Segment adapts visual components
+            as well as language; Procedure uses language LoRA with the vision encoder frozen.
+          </figcaption>
+        </figure>
+        <div class="figure-links">
+          <a href="figures/training.svg">SVG figure</a>
+          <a href="figures/training.pdf">PDF figure</a>
+          <a href="https://github.com/mdivyanshu97/orena-focus-segment/blob/main/METHOD_DESCRIPTION.md">Segment method</a>
+          <a href="https://github.com/mdivyanshu97/orena-focus-procedure/blob/main/METHOD_DESCRIPTION.md">Procedure method</a>
+        </div>
+        <div class="training-notes">
+          <article>
+            <h3>Build supervision carefully</h3>
+            <p>Join surgical QA to source frames, de-duplicate records, normalize formats,
+              and represent each example as image-conditioned chat.</p>
+          </article>
+          <article>
+            <h3>Train the answer, not the prompt</h3>
+            <p>Apply supervised cross-entropy to answer tokens, masking the system
+              instruction, question, padding, and visual placeholders.</p>
+          </article>
+          <article>
+            <h3>Match training and serving</h3>
+            <p>Use chronological frames, a 768-pixel longest-side cap, and absolute
+              video timestamps throughout temporal training and inference.</p>
+          </article>
+        </div>
+        <p class="fine-print">
+          Training loss was monitored with row-random splits, so it is not a video-disjoint
+          generalization estimate. This project uses supervised fine-tuning; the temporal
+          search policy is deterministic.
+        </p>
+      </section>
+
+      <section class="wrap section" id="search">
+        <div class="section-intro">
+          <div><p class="eyebrow">02 / Inference</p><h2>Answer.<br>Then zoom in.</h2></div>
+          <p>
+            A uniform pass can miss a brief event in a long video. I used the first
+            prediction as a pointer, then resampled near it. Narrowing the interval
+            improves temporal resolution with a bounded frame budget.
+          </p>
+        </div>
+        <div class="demo">
+          <div class="demo-title"><h3>Explore the Procedure search</h3><span>Illustrative 60-minute video</span></div>
+          <div class="stage-controls" role="group" aria-label="Select temporal search stage">
+            <button type="button" data-stage="0" aria-pressed="true">01 · Whole video</button>
+            <button type="button" data-stage="1" aria-pressed="false">02 · 20-minute window</button>
+            <button type="button" data-stage="2" aria-pressed="false">03 · 100-second window</button>
+          </div>
+          <svg class="demo-track" viewBox="0 0 1000 182" role="img" aria-labelledby="demo-title demo-description">
+            <title id="demo-title">Frames sampled at the selected search stage</title>
+            <desc id="demo-description">The upper strip shows the selected window on the full procedure timeline. The lower strip expands that interval to show the sampled frames.</desc>
+            <rect x="24" y="25" width="952" height="23" rx="2" fill="#eaf0f2"></rect>
+            <rect id="search-window" x="24" y="21" width="952" height="31" rx="2" fill="#f6ece5" stroke="#b8512e"></rect>
+            <text x="24" y="72" font-size="13" fill="#53636a">00:00:00</text>
+            <text x="976" y="72" text-anchor="end" font-size="13" fill="#53636a">01:00:00</text>
+            <g id="sampled-frames"></g>
+            <text id="window-start" x="24" y="160" font-size="14" fill="#142b38">00:00:00</text>
+            <text id="window-end" x="976" y="160" text-anchor="end" font-size="14" fill="#142b38">01:00:00</text>
+          </svg>
+          <div class="demo-stats" aria-live="polite" aria-atomic="true">
+            <div><strong id="frame-count">128</strong><span>frames in this pass</span></div>
+            <div><strong id="frame-gap">28.3 s</strong><span>between observations</span></div>
+            <div><strong id="model-name">W64</strong><span>active checkpoint</span></div>
+          </div>
+          <p class="demo-explanation" id="search-explanation">
+            W64 scans the complete procedure; NW2 then refines inside 1,200-second and
+            100-second windows. Only one model is resident at a time.
+          </p>
+        </div>
+        <div class="figure-links">
+          <a href="figures/search.svg">Search diagram / SVG</a>
+          <a href="figures/search.pdf">Search diagram / PDF</a>
+          <a href="https://github.com/mdivyanshu97/orena-focus-procedure/blob/main/inference.py">Read the implementation</a>
+        </div>
+        <p class="note">
+          The search uses predicted timestamps to select evidence. Gold timestamps are
+          used for evaluation, and the selected frames always keep the absolute video clock.
+        </p>
+      </section>
+
+      <section class="wrap section" id="results">
+        <div class="section-intro">
+          <div><p class="eyebrow">03 / Experiment design</p><h2>Measure each<br>decision separately.</h2></div>
+          <p>
+            These ablations ask whether changing evidence placement improves timestamp
+            answers. Each row is a separate local study with its own question subset
+            and checkpoint context.
+          </p>
+        </div>
+        <figure class="figure">
+          <img src="figures/results.svg" width="1200" height="480" loading="lazy"
+            alt="Local accuracy improves from 50.4 to 55.0 percent with Segment refinement on 1,577 questions, from 72.7 to 79.1 percent with Segment question windows on 422 questions, and from 6.8 to 35.1 percent with Procedure search on 746 questions.">
+          <figcaption>
+            Local offline accuracy on the indicated subsets. The Procedure result isolates
+            the three-pass search with one checkpoint, before the later W64/NW2 split.
+          </figcaption>
+        </figure>
+        <div class="table-wrap">
+          <table>
+            <caption class="eyebrow">Study conditions</caption>
+            <thead><tr><th scope="col">Intervention</th><th scope="col">Local accuracy</th><th scope="col">Questions</th><th scope="col">Scope</th></tr></thead>
+            <tbody>
+              <tr><td>Segment · predicted-time refinement</td><td>50.4% → 55.0%</td><td>1,577</td><td>Earlier Segment checkpoint; single-timestamp answers</td></tr>
+              <tr><td>Segment · question-anchored windows</td><td>72.7% → 79.1%</td><td>422</td><td>Questions stating a time; same 64-frame budget</td></tr>
+              <tr><td>Procedure · three-pass search</td><td>6.8% → 35.1%</td><td>746</td><td>Single-checkpoint study; single-timestamp answers</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">
+          These subset results are not overall challenge scores, and the gains should
+          not be added. The recorded challenge pre-evaluation values are shown separately below.
+        </p>
+        <p class="score-label">Challenge pre-evaluation · recorded in the released provenance</p>
+        <div class="scores">
+          <div class="score"><strong>0.5657</strong><span>Segment</span></div>
+          <div class="score"><strong>0.4112</strong><span>Procedure · technical</span></div>
+          <div class="score"><strong>0.5573</strong><span>Procedure · clinical</span></div>
+        </div>
+        <div class="figure-links">
+          <a href="figures/results.json">Study data / JSON</a>
+          <a href="evidence.md">Sources and scope</a>
+          <a href="figures/results.pdf">Results figure / PDF</a>
+        </div>
+      </section>
+
+      <section class="wrap section" id="release">
+        <div class="section-intro">
+          <div><p class="eyebrow">04 / Engineering</p><h2>Make the work<br>inspectable.</h2></div>
+          <p>
+            I released the merged checkpoints, inference code, method descriptions,
+            and container tooling. The public source can be reviewed and tested on
+            CPU before running a full GPU smoke test.
+          </p>
+        </div>
+        <div class="release-grid">
+          <ul class="release-list">
+            <li><strong>Traceable model artifacts</strong><span>Pinned Hugging Face revisions, SHA-256 checks, and preserved submission records.</span></li>
+            <li><strong>Bounded GPU memory</strong><span>Procedure runs W64 and NW2 in separate phases, with one model resident at a time.</span></li>
+            <li><strong>Defensive batch execution</strong><span>Ordered atomic output, isolated question failures, and visible setup or write failures.</span></li>
+            <li><strong>Checks that can run without a GPU</strong><span>Format, routing, batch I/O, and release-integrity regressions, plus lint and shell checks.</span></li>
+          </ul>
+          <div class="release-links">
+            <h3>Read the code and methods.</h3>
+            <p>Each track remains independently buildable. This page connects the common
+              design and the evidence behind both releases.</p>
+            <a href="https://github.com/mdivyanshu97/orena-focus-segment">Segment source + method ↗</a>
+            <a href="https://github.com/mdivyanshu97/orena-focus-procedure">Procedure source + method ↗</a>
+            <a href="spotlight.pdf">Three-slide project overview / PDF</a>
+            <a href="spotlight.pptx">Project slides / PowerPoint</a>
+            <a href="figures/build_figures.py">Figure generation source</a>
+          </div>
+        </div>
+        <p class="fine-print">
+          This is a research challenge release. Dataset access remains subject to the
+          original terms; patient videos and raw challenge annotations are not distributed.
+          The repositories provide inference artifacts and documented training recipes;
+          complete training scripts and manifests are not included.
+        </p>
+      </section>
+    </main>
+    <footer class="wrap"><p>© 2026 Divyanshu Mishra · Incision Impossible</p><a href="../">Research website ↗</a></footer>
+  </body>
+</html>
